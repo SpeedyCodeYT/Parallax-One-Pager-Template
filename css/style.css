@@ -5,7 +5,7 @@
 /* Intro Section */
 
 #intro {
-    background-image: url('../img/intro.jpg');
+    background-image: url('../img/202.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -47,32 +47,57 @@
 #slide1 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/slide1.jpg');
+    background-image: url('../img/226.jpg');
 }
 #slide2 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/slide2.jpg');
+    background-image: url('../img/Zzz.JPG');
 }
 #slide3 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/slide3.jpg');
+    background-image: url('../img/2.JPG');
 }
 #slide4 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/slide4.jpg');
+    background-image: url('../img/Zzz\ \(1\).JPG');
 }
 #slide5 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/slide5.jpg');
+    background-image: url('../img/74.JPG');
 }
 #slide6 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/slide6.jpg');
+    background-image: url('../img/151.jpg');
+}
+#slide7 div:first-child {
+    /* Location of the image */
+    
+    background-image: url('../img/166.jpg');
+}
+#slide8 div:first-child {
+    /* Location of the image */
+    
+    background-image: url('../img/188.jpg');
+}
+#slide9 div:first-child {
+    /* Location of the image */
+    
+    background-image: url('../img/216.jpg');
+}
+#slide10 div:first-child {
+    /* Location of the image */
+    
+    background-image: url('../img/287.jpg');
+}
+#slide11 div:first-child {
+    /* Location of the image */
+    
+    background-image: url('../img/323.JPG');
 }
 .txt-black {
     color: black;
