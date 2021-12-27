@@ -27,6 +27,13 @@ body{
     text-align: center;
     color: white;
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(red, green, blue, 0);
+  }
 #intro {
     background-image: url('../img/202.jpg');
     background-size: cover;
