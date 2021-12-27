@@ -32,7 +32,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(red, green, blue, 0);
+    background: rgba(255, 255, 255, 0)!important;
+    color:rgba(0, 0, 0, 0)
   }
 #intro {
     background-image: url('../img/202.jpg');
