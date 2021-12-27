@@ -1,32 +1,12 @@
-
+@media (max-width : 520px) {
+  
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 /* Intro Section */
-body{
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
-
-}
-.golu{
-    height: 200px;
-    margin: -20px;
-    
-}
-.btn{
-    position: absolute;
-    top: 20%;
-    right: 25%;
-}
-.parallax_bg{
-    position: relative;
-    text-align: center;
-    color: white;
-}
 #intro {
     background-image: url('../img/202.jpg');
     background-size: cover;
@@ -60,7 +40,7 @@ body{
     /* This is what makes the background image rescale based
      on the container's size */
     
-    background-size: cover;
+    background-size: auto;
     /* Set a background color that will be displayed
      while the background image is loading */
     
@@ -162,12 +142,10 @@ h1.deepshadow {
 h1.insetshadow {
     color: #202020;
     letter-spacing: .1em;
-    font-size: 35px;
     text-shadow: -1px -1px 1px #111111, 2px 2px 1px #363636;
 }
 h1.retroshadow {
     color: #2c2c2c;
-    font-size: 38px;
     letter-spacing: .05em;
     text-shadow: 3px 3px 0px #ffffff, 2px 3px 0px rgba(0, 0, 0, 0.2);
 }
@@ -292,4 +270,5 @@ h1.retroshadow {
     #slide6 div:first-child {
         height: 20em;
     }
+}
 }
