@@ -5,27 +5,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
     font-family: 'Ubuntu', sans-serif;
+   
 }
+
 /* Intro Section */
-body{
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
-
-}
 .golu{
-    height: 200px;
+    height: 220px;
     margin: -20px;
     
 }
-.btn{
+
+.btn1{
     position: absolute;
-    top: 20%;
-    right: 25%;
+    right: 20px;
+
 }
-.parallax_bg{
-    position: relative;
+h3{
+    padding: 10px, 0, 0, 0;
+    margin: 0 !important;
+    font-size: 20px !important;
     text-align: center;
-    color: white;
+    align-self: center;
+    box-align: center;
 }
 .centered {
     position: absolute;
@@ -41,16 +43,22 @@ body{
     background-repeat: no-repeat;
 }
 #intro_header {
-    font-size: 8em;
+    font-size: 6em;
     background-color: rgba(0, 0, 0, 0.62);
     padding: 0.1em 0.2em 0.1em 1em;
     color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
 #intro_desc {
     font-size: 4em;
     background-color: rgb(64, 89, 142);
     padding: 0.1em 0.2em 0.1em 1em;
     color: white;
+    position: absolute;
+    top: 150px;
+    right: 0;
 }
 /* Parallax Sections */
 
@@ -72,58 +80,64 @@ body{
     /* Set a background color that will be displayed
      while the background image is loading */
     
-    background-color: #00468C;
+    
     height: 43em;
+}
+.button{
+    position: absolute;
+    top: 250px;
+    right: 15px;
 }
 #slide1 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/226.jpg');
+    background-image: url('../img/1.jpg');
 }
 #slide2 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/Zzz.JPG');
+    background-image: url(../img/26.JPG);
+    min-height: 100%;
 }
 #slide3 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/2.JPG');
+    background-image: url('../img/148.jpg');
 }
 #slide4 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/Zzz\ \(1\).JPG');
+    background-image: url('../img/170.jpg');
 }
 #slide5 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/74.JPG');
+    background-image: url('../img/170.jpg');
 }
 #slide6 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/151.jpg');
+    background-image: url('../img/239.jpg');
 }
 #slide7 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/166.jpg');
+    background-image: url('../img/258.jpg');
 }
 #slide8 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/188.jpg');
+    background-image: url('../img/323.JPG');
 }
 #slide9 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/216.jpg');
+    background-image: url('../img/WhatsApp\ Image\ 2021-12-28\ at\ 8.31.31\ PM.jpeg');
 }
 #slide10 div:first-child {
     /* Location of the image */
     
-    background-image: url('../img/287.jpg');
+    background-image: url('../img/WhatsApp\ Image\ 2021-12-28\ at\ 8.33.53\ PM.jpeg');
 }
 #slide11 div:first-child {
     /* Location of the image */
@@ -153,7 +167,7 @@ body{
 h1 {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 70px;
-    padding: 0 0 30px 0;
+    padding: 0 0 0px 0;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
 }
@@ -194,7 +208,7 @@ h1.retroshadow {
     margin-top: -15px;
     font-size: 20px;
     background-color: rgb(27, 90, 205);
-    padding: 0.45em;
+    padding: 0;
     border-radius: 50%;
 }
 /*------------------------------------------------------------------------------*/
